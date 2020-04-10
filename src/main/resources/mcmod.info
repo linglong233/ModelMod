@@ -1,0 +1,16 @@
+[
+{
+  "modid": "modelmod",
+  "name": "modelmod",
+  "description": "modelmod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "The Forge and FML guys, for making this narutorpglinglong",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
