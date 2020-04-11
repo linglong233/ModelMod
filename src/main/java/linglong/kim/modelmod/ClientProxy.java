@@ -23,6 +23,5 @@ public class ClientProxy extends CommonProxy
     public void postInit(FMLPostInitializationEvent event)
     {
         super.postInit(event);
-        OBJLoader.INSTANCE.addDomain(modelmod.MODID);
     }
 }

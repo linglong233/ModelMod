@@ -1,17 +1,9 @@
 {
     "forge_marker": 1,
     "variants": {
-        "facing=north": {
-            "model": "modelmod/model/3.obj"
-        },
-        "facing=south": {
-            "model": "modelmod/model/3.obj,"y": 180
-        },
-        "facing=west": {
-            "model": "modelmod/model/3.obj,"y": 270
-        },
-        "facing=east": {
-            "model": "modelmod/model/3.obj,"y": 90
-        }
+        "facing=north": {"model": "modelmod:model/3.obj"},
+        "facing=south": {"model": "modelmod:model/3.obj","y": 180},
+        "facing=west": {"model": "modelmod:model/3.obj","y": 270},
+        "facing=east": {"model": "modelmod:model/3.obj","y": 90}
     }
 }

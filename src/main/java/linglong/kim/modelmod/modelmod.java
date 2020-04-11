@@ -48,6 +48,7 @@ public class modelmod
     public void preInit(FMLPreInitializationEvent event)
     {  
     proxy.preInit(event);
+    OBJLoader.INSTANCE.addDomain(MODID);
     }
 
     @EventHandler
@@ -63,7 +64,7 @@ public class modelmod
 //    @SubscribeEvent
 //    public void onobj(ModelRegistryEvent event) {
 //    	OBJLoader.INSTANCE.addDomain(MODID);
-//    	System.out.println("objloaderok");
+//    	System.out.println("objloader加载");
 //    }
 //    @SubscribeEvent
 //    public static void on(ModelBakeEvent event)
